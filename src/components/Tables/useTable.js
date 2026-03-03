@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 
-export function useTable(data, itemsPerPage = 5) {
+export const useTable = (data, itemsPerPage = 5) => {
   const [search, setSearch] = useState("");
   const [sortKey, setSortKey] = useState(null);
   const [sortOrder, setSortOrder] = useState("asc");

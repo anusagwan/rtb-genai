@@ -4,7 +4,7 @@ import Users from "./pages/Users";
 import Layout from "./components/Layout";
 import Figma from "./components/Figma";
 
-function App() {
+const App = () => {
   return (
     <Layout>
       <Routes>

@@ -1,6 +1,6 @@
 import { useTable } from "./useTable";
 
-export default function Table({ columns, data, loading }) {
+const Table = ({ columns, data, loading }) => {
   const {
     search,
     setSearch,
@@ -93,3 +93,5 @@ export default function Table({ columns, data, loading }) {
     </div>
   );
 }
+
+export default Table;

@@ -1,4 +1,4 @@
-export default function Dashboard() {
+const Dashboard = () => {
   return (
     <div className="p-8 space-y-8">
       <div className="grid grid-cols-4 gap-6">
@@ -9,13 +9,15 @@ export default function Dashboard() {
       </div>
     </div>
   );
-}
+};
 
-function Card({ title, value }) {
+const Card = ({ title, value }) => {
   return (
     <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
       <p className="text-gray-500 text-sm">{title}</p>
       <h2 className="text-3xl font-bold mt-2">{value}</h2>
     </div>
   );
-}
+};
+
+export default Dashboard;
