@@ -2,7 +2,14 @@ name: React CI Pipeline
 
 on:
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
+      - master
+
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   build-and-test:
@@ -13,19 +20,19 @@ jobs:
         node-version: [18.x]
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
 
-      - name: Run tests
+      - name: Run Tests
         run: npm test -- --watchAll=false --coverage
 
-      - name: Build project
+      - name: Build Application
         run: npm run build
