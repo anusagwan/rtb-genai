@@ -68,3 +68,61 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+===========================Go to Figma → Use AI → Paste this:======================================
+Generate a modern SaaS admin dashboard layout with:
+
+- Left sidebar navigation
+- Top header with search and profile section
+- 4 analytics cards
+- Data table section
+- Clean spacing
+- Minimal modern style
+- Dark theme
+- Enterprise SaaS look
+
+
+
+===============ci/cd==================
+Generate a GitHub Actions workflow for a Create React App project that:
+
+- Runs on pull request to master
+- Uses Node 24
+- Installs dependencies
+- Runs tests with coverage
+- Fails if tests fail
+- Builds the project
+
+
+========utc=====
+Generate comprehensive Jest and React Testing Library tests for a reusable React Table component with:
+
+- Search functionality
+- Sorting
+- Pagination
+- Loading state
+- Empty state
+
+Include:
+- Render tests
+- User interaction tests
+- Edge cases
+- Pagination navigation test
+
+
+
+
+======= to generate reusable table ====
+Generate a reusable React Table component with:
+
+- Sorting
+- Pagination
+- Search
+- Tailwind CSS styling
+- Props for columns and data
+- Functional components using hooks
+- Clean modular structure
+- Loading state
+- Empty state
+- Accessibility improvements

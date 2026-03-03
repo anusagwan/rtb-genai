@@ -14,6 +14,11 @@ const Sidebar = () => (
           Users
         </Link>
       </li>
+       <li>
+        <Link to="/figma" className="hover:text-blue-400">
+          Figma
+        </Link>
+      </li>
     </ul>
   </div>
 );

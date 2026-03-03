@@ -1,8 +1,15 @@
-const Header = () => (
-  <div className="bg-white shadow p-4 flex justify-between">
-    <h1 className="text-xl font-semibold">Admin Dashboard</h1>
-    <div className="text-gray-600">Welcome, Admin</div>
-  </div>
-);
+export default function Header() {
+  return (
+    <div className="bg-white shadow p-4 flex justify-between items-center">
+      <h1 className="text-xl font-semibold">Dashboard</h1>
 
-export default Header;
+      <div className="flex items-center gap-4">
+        <input
+          placeholder="Search..."
+          className="border px-3 py-1 rounded-lg"
+        />
+        <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
+      </div>
+    </div>
+  );
+}
