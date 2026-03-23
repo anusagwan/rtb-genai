@@ -84,7 +84,7 @@ Generate a modern SaaS admin dashboard layout with:
 
 
 
-===============ci/cd==================
+===============ci/cd ==================
 Generate a GitHub Actions workflow for a Create React App project that:
 
 - Runs on pull request to master

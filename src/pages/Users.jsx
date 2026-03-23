@@ -9,7 +9,7 @@ const users = [
   { id: 6, name: "Kiran", email: "kiran@email.com" },
 ];
 
-const Users = () => {
+export default function Users() {
   return (
     <div className="p-6">
       <Table
@@ -23,6 +23,4 @@ const Users = () => {
       />
     </div>
   );
-};
-
-export default Users;
+}
